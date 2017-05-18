@@ -1,4 +1,4 @@
-#YouTube Audio Library Downloader
+# YouTube Audio Library Downloader
 
 This extension helps to batch download audio and effect tracks from YouTube Audio Library.
  
