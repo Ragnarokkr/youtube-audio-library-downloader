@@ -1,0 +1,28 @@
+{
+	"lblDownloadAllTracks": {
+		"message": "Scarica tutte le tracce",
+		"description": "Etichetta usata per il link di download di tutte le tracce"
+	},
+	"lblDownloadAllTracksNote": {
+		"message": "Ricorda di scrollare la lista delle track list fino a quando non sono state tutte caricate.",
+		"description": "Testo del fumetto per il link di download."
+	},
+	"msgAudioTrackFound": {
+		"message": "1 traccia audio trovata. Il download inizierà a breve.",
+		"description": "Messaggio di notifica mostrato quando 1 traccia viene rilevata."
+	},
+	"msgAudioTracksFound": {
+		"message": "$TRACK_COUNT$ tracce audio trovate. Il download inizierà a breve.",
+		"description": "Messaggio di notifica mostrato quando 2 o più tracce vengono rilevate.",
+		"placeholders": {
+			"track_count": {
+				"content": "$1",
+				"example": "42"
+			}
+		}
+	},
+	"msgAudioTracksNotFound": {
+		"message": "Nessuna traccia audio. Ricontrolla i filtri e ricorda di scrollare la lista delle tracce fino a che non vengono tutte caricate.",
+		"description": "Messaggio di notifica mostrato quando non vengono rilevate tracce."
+	}
+}

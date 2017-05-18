@@ -1,0 +1,28 @@
+{
+	"lblDownloadAllTracks": {
+		"message": "Download All Tracks",
+		"description": "Label for the link used to download all the audio tracks"
+	},
+	"lblDownloadAllTracksNote": {
+		"message": "Remember to scroll down the track list until all the tracks are loaded before to click.",
+		"description": "Tooltip text for download link."
+	},
+	"msgAudioTrackFound": {
+		"message": "1 audio track found. Download will start soon.",
+		"description": "Notification message displayed when 1 audio track is found."
+	},
+	"msgAudioTracksFound": {
+		"message": "$TRACK_COUNT$ audio track(s) found. Download will start soon.",
+		"description": "Notification message displayed when 1 or more audio tracks are found.",
+		"placeholders": {
+			"track_count": {
+				"content": "$1",
+				"example": "42"
+			}
+		}
+	},
+	"msgAudioTracksNotFound": {
+		"message": "No audio tracks found. Check again your filters and remember to scroll down the track list until all your tracks have been loaded.",
+		"description": "Notification message displayed when no audio tracks are found."
+	}
+}

@@ -1,0 +1,21 @@
+# EditorConfig is awesome: http://EditorConfig.org
+
+root = true
+
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+[*.{js,ts,json},Makefile]
+charset = utf-8
+
+[Makefile]
+indent_style = tab
+
+[*.{js,ts}]
+indent_style = tab
+indent_size = 4
+
+[*.json]
+indent_style = space
+indent_size = 2

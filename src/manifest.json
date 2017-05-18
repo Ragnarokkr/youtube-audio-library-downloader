@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "YouTube Audio Library Downloader",
+  "version": "0.0.1",
+  "author": "Marco Trulla",
+  "permissions": [ "tabs", "downloads", "notifications", "https://www.youtube.com/audiolibrary/*" ],
+  "background": {
+    "scripts": ["js/commons.js", "js/Mutex.js", "js/Queue.js", "js/eventPage.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/audiolibrary/*"],
+      "css": ["css/inject_style.css"],
+      "js": ["js/commons.js", "js/inject_script.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "externally_connectable": {
+    "matches": ["https://www.youtube.com/audiolibrary/*"]
+  },
+  "default_locale": "en",
+  "icons": {
+    "16": "img/yt-download-icon@16.png",
+    "48": "img/yt-download-icon@48.png",
+    "128": "img/yt-download-icon@128.png"
+  }
+}

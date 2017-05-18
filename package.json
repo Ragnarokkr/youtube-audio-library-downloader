@@ -1,0 +1,11 @@
+{
+  "name": "youtube-audio-downloader",
+  "version": "0.0.1",
+  "author": "Marco Trulla <dev@marcotrulla.it>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "gulp": "^3.9.1",
+    "gulp-copy": "^1.0.0"
+  }
+}
